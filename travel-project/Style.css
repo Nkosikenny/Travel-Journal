@@ -18,3 +18,31 @@ body {
 .navbar>p {
     margin-left: 5px;
 }
+
+.card {
+    display: flex;
+    margin: 50px;
+   
+
+}
+
+.location {
+    font-size: 10.24px;
+    font-weight: 400;
+    line-height: 15.36px;
+
+}
+
+.location__link {
+    font-size: 10.24px;
+    font-weight: 400;
+    line-height: 12.39px;
+    color: #918E9B;
+
+}
+
+.description {
+    font-size: 10.24px;
+    font-weight: 400;
+    line-height: 15.36px;
+}
