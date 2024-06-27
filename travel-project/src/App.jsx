@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className='card'>
+      <div className='card__component'>
         {cardComponent}
       </div>
 

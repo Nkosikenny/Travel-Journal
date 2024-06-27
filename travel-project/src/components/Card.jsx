@@ -5,14 +5,16 @@ export default function Card(props) {
     console.log(props);
     return (
         <>
-          <img src={props.item.imageUrl} alt="" width="125px" height="168px" />
-          <div className="card-body">
-            <img src={locationIcon} alt="" />
+          <div className="card">
+          <img src={props.item.imageUrl} alt="destination Image" width="125px" height="200px" />
+          <div className="card__body">
+            <img src={locationIcon} alt="location-icon" />
             <span className="location">{props.item.location}</span>
             <a href={props.item.googleMapsUrl} className="location__link">View on google maps</a>  
           <h1>{props.item.title}</h1>
-          <span className="date">{props.item.startDate}-{props.item.endDate}</span>
+          <span className="date__text">{props.item.startDate}-{props.item.endDate}</span>
           <p className="description">{props.item.description}</p>
+          </div>
           </div>
         </>
      
